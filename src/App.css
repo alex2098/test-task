@@ -1,0 +1,84 @@
+.app{
+  background-color: rgb(194, 228, 230);
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  font-family: Arial;
+  font-size: 16px;
+  overflow-y: auto;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+
+.header-text {
+  margin: 20px 15px;
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(70, 60, 60);
+}
+
+.left-main{
+  position: absolute;
+  top: 70px;
+  width: 175px;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.main{
+  position: absolute;
+  left: 180px;
+  top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content{
+  width: 200px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.modal-text{
+  margin: 10px;
+  font-size: 20px;
+}
+
+input {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  font-size: 16px;
+}
+
+button{
+  width: 100px;
+  background: rgb(218, 228, 255);
+  border: 1px solid rgb(104, 83, 83);
+  border-radius: 12px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+img{
+  border-radius: 5px;
+}
